@@ -91,7 +91,7 @@ function Home() {
                             </div>
                         </div>
                     </Link>
-                    <Link className="relative  lg:h-full" to={path.CAMERA}>
+                    <Link className="relative  lg:h-full" to={path.REGISTER}>
                         <img
                             src={imgCam}
                             alt="camera-fpt"
