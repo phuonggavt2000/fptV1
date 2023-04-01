@@ -16,7 +16,7 @@ function Home() {
     return (
         <div className="relative  ">
             <Banner />
-            <div className="px-8 pb-10">
+            <div className="lg:px-8 px-6 pb-10">
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 text-2xl font-semibold mt-4">
                     {underBanners.map((item, key) => (
                         <Link

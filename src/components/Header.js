@@ -87,6 +87,7 @@ function Header({ onClick }) {
                                 }
                                 onClick={() => {
                                     setHiddenMenu(!hiddenMenu);
+                                    onClick();
                                 }}
                             >
                                 {item.icon}
