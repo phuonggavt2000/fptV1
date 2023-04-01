@@ -67,15 +67,15 @@ function Home() {
                         </div>
                     </Link>
                 </div>
-                <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-4 gap-x-4 mt-5">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-2 lg:h-full h-[60%] gap-x-4 mt-5">
                     <Link
-                        className="relative h-[70%] lg:h-full"
+                        className="relative lg:h-full w-full"
                         to={path.INTERNET}
                     >
                         <img
                             src={imgInternetP}
                             alt="internet-fpt"
-                            className="h-full rounded-lg"
+                            className="h-full w-full rounded-lg"
                         />
                         <div className="absolute flex justify-center items-center w-full flex-col bottom-[3%] ">
                             <span className="text-2xl text-orange-500 font-semibold">
@@ -91,10 +91,7 @@ function Home() {
                             </div>
                         </div>
                     </Link>
-                    <Link
-                        className="relative h-[70%] lg:h-full"
-                        to={path.CAMERA}
-                    >
+                    <Link className="relative  lg:h-full" to={path.CAMERA}>
                         <img
                             src={imgCam}
                             alt="camera-fpt"

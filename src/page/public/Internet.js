@@ -20,7 +20,7 @@ function Internet({
 
             <Product img={imgProduct} products={product} title={title} />
             <div className="w-full bg-[#ebebeb]">
-                <div className="max-w-[1200px] mx-auto mt-6 py-10">
+                <div className="max-w-[1200px] mx-auto mt-6 py-10 px-6 lg:px-0">
                     <h2 className="pb-2 font-semibold leading-[25px] inline-block text-primary text-2xl border-b-2 border-primary align-text-bottom">
                         <IoDocumentText className="inline-block text-3xl" />
                         <span className="align-text-bottom ml-2 uppercase">
@@ -42,7 +42,7 @@ function Internet({
                     </p>
                 </div>
             </div>
-            <div className="max-w-[1200px] mx-auto mt-6 py-10">
+            <div className="max-w-[1200px] mx-auto mt-6 py-10 px-6 lg:px-0">
                 <span className="pb-2 font-semibold leading-[25px] inline-block text-primary text-2xl border-b-2 border-primary">
                     <AiFillFlag className="inline-block text-3xl" />
                     <span className=" ml-2 align-text-bottom uppercase">
@@ -54,7 +54,7 @@ function Internet({
                         Những ưu điểm của dịch vụ FTTH do FPT Telecom mang lại
                         bao gồm:
                     </span>
-                    <div className="grid grid-cols-2 mt-4 gap-y-6 gap-x-8">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 mt-4 gap-y-6 gap-x-8">
                         {features.map((item, index) => (
                             <Feature
                                 key={index}
@@ -70,7 +70,7 @@ function Internet({
                         Đăng ký ngay
                     </span>
                 </span>
-                <div className="grid grid-cols-3 mt-10">
+                <div className="grid grid-cols-3 mt-10 gap-x-2">
                     {registerNow.map((item, index) => (
                         <Link
                             key={index}
@@ -83,7 +83,7 @@ function Internet({
                                 className="group-hover:scale-110 transition-all"
                             />
                             <span
-                                className={`uppercase font-bold text-base ${item.color} mt-4`}
+                                className={`uppercase font-bold text-base ${item.color} mt-4 text-center`}
                             >
                                 {item.title}
                             </span>
