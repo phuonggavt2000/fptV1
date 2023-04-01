@@ -98,7 +98,7 @@ function FptPlayPackage({ data, title, colorText }) {
                     </div>
                     <Link
                         to="tel:0375956703"
-                        className="bg-primary rounded-xl w-full py-4 border border-primary hover:bg-[#ff894033] cursor-pointer transition-all hover:text-primary flex justify-center items-center uppercase text-white"
+                        className="bg-primary text-center rounded-xl w-full py-4 border border-primary hover:bg-[#ff894033] cursor-pointer transition-all hover:text-primary flex justify-center items-center uppercase text-white"
                     >
                         Hotline: 0375.956.703
                     </Link>

@@ -52,7 +52,9 @@ function Tv() {
             </div>
             <div className=" gap-y-4 font-semibold relative z-10 text-white flex flex-col justify-center items-center pt-14">
                 <h1 className="text-4xl">FPT Play</h1>
-                <p>Truyền hình trực tuyến không giới hạn trên mọi nền tảng</p>
+                <p className="text-primary text-center">
+                    Truyền hình trực tuyến không giới hạn trên mọi nền tảng
+                </p>
             </div>
             <FptPlayPackage
                 data={packageFptPlayv1}
@@ -82,7 +84,7 @@ function Tv() {
                         <BsPhone className="text-primary text-2xl flex-shrink-0 " />
                         <span className="font-bold">Các thiết bị hỗ trợ</span>
                     </div>
-                    <div className="flex px-12 justify-between text-3xl">
+                    <div className="flex px-12 justify-between text-3xl gap-x-4">
                         {featurePlayboxs.map((item, index) => (
                             <div
                                 key={index}

@@ -14,9 +14,12 @@ function Public() {
         });
     };
     return (
-        <div className="h-screen overlay relative z-[1] ">
+        <div className="h-screen overlay relative z-[1]  ">
             <Header onClick={handleRedirect} />
-            <div className="lg:pt-[70px] pt-[50px]" ref={ref}>
+            <div
+                className="lg:pt-[70px] pt-[50px] w-screen overflow-hidden"
+                ref={ref}
+            >
                 <Outlet />
             </div>
             <Footer />
