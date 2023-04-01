@@ -27,8 +27,8 @@ function Footer() {
                         ))}
                     </div>
                 </div>
-                <div className="grid grid-cols-11 gap-x-8 px-8 mt-10 text-sm">
-                    <div className="col-span-4 flex flex-col gap-y-3 ">
+                <div className="grid md:grid-cols-11 grid-cols-1 gap-x-8 px-8 mt-10 text-sm">
+                    <div className="md:col-span-4  col-span-1 flex flex-col gap-y-3 ">
                         <span>
                             Giấy chứng nhận ĐKKD số 0101778163 do Sở Kế hoạch
                             Đầu tư Thành phố Hà Nội cấp ngày 28/07/2005
@@ -73,7 +73,7 @@ function Footer() {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-span-2 ">
+                    <div className="col-span-2 md:block hidden">
                         <span className="text-primary font-bold text-lg">
                             Về FPT Telecom
                         </span>
@@ -89,7 +89,7 @@ function Footer() {
                             ))}
                         </div>
                     </div>
-                    <div className="col-span-2 ">
+                    <div className="col-span-2  md:block hidden">
                         <span className="text-primary font-bold text-lg">
                             Khách hàng FPT Telecom
                         </span>
@@ -105,7 +105,7 @@ function Footer() {
                             ))}
                         </div>
                     </div>
-                    <div className="col-span-3 ">
+                    <div className="col-span-3 md:block hidden ">
                         <span className="text-primary font-bold text-lg">
                             Chưa là khách hàng của FPT Telecom
                         </span>

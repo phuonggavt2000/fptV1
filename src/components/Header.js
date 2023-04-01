@@ -5,13 +5,13 @@ import icons from "../ultis/icons";
 import { useState } from "react";
 function Header({ onClick }) {
     const { RiMapPinLine, AiOutlineMenu } = icons;
-    const [hiddenMenu, setHiddenMenu] = useState(false);
+    const [hiddenMenu, setHiddenMenu] = useState(true);
     console.log("hiddenMenu:", hiddenMenu);
     return (
         <header className="fixed top-0 left-0 right-0 lg:h-[70px] h-[50px] bg-[rgba(255,255,255,0.8)] z-50 shadow-sm	">
             <div className="flex h-full   max-w-[1220px] ml-auto font-semibold mr-auto  items-center lg:justify-start justify-between px-4 lg:px-0">
                 <button
-                    className="text-2xl"
+                    className="text-2xl lg:hidden flex"
                     onClick={() => setHiddenMenu(!hiddenMenu)}
                 >
                     <AiOutlineMenu />
@@ -60,7 +60,7 @@ function Header({ onClick }) {
                 >
                     <div className="flex  items-center px-4">
                         <AiOutlineMenu
-                            className="mr-auto cursor-pointer"
+                            className="mr-auto cursor-pointer text-2xl"
                             onClick={() => setHiddenMenu(!hiddenMenu)}
                         />
                         <img

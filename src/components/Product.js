@@ -12,6 +12,26 @@ function Product({ img, products, title = "cáp quang FPT" }) {
         slidesToScroll: 1,
         prevArrow: <PrevBanner />,
         nextArrow: <NextBanner />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+        ],
     };
     return (
         <div className=" max-w-[1200px] mx-auto mt-6">

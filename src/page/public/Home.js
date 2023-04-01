@@ -17,12 +17,12 @@ function Home() {
         <div className="relative  ">
             <Banner />
             <div className="px-8 pb-10">
-                <div className="grid grid-cols-3 gap-5 text-2xl font-semibold mt-4">
+                <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 text-2xl font-semibold mt-4">
                     {underBanners.map((item, key) => (
                         <Link
                             to={item.to}
                             key={key}
-                            className={`flex items-center gap-4 hover:shadow-md transition-all bg-[#f8f9fa] cursor-pointer ${item.hover} py-8 rounded-lg justify-center`}
+                            className={`flex items-center gap-4 hover:shadow-md transition-all bg-[#f8f9fa] cursor-pointer ${item.hover} py-8 rounded-lg lg:justify-center lg:px-0 px-5`}
                         >
                             <button className={`${item.bg} p-4 rounded-full`}>
                                 {item.icon}
@@ -67,7 +67,7 @@ function Home() {
                         </div>
                     </Link>
                 </div>
-                <div className="grid grid-cols-2 gap-x-4 mt-5">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-4 gap-x-4 mt-5">
                     <Link className="relative" to={path.INTERNET}>
                         <img
                             src={imgInternetP}
