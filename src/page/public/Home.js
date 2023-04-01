@@ -88,11 +88,14 @@ function Home() {
                             </div>
                         </div>
                     </Link>
-                    <Link className="relative" to={path.CAMERA}>
+                    <Link
+                        className="relative h-[60%] lg:h-full"
+                        to={path.CAMERA}
+                    >
                         <img
                             src={imgCam}
                             alt="camera-fpt"
-                            className="h-full rounded-lg"
+                            className="h-full w-full rounded-lg "
                         />
                         <div className="absolute flex justify-center items-center w-full flex-col bottom-[3%] ">
                             <span className="text-2xl text-orange-500 font-semibold">
