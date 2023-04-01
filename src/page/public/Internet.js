@@ -49,7 +49,7 @@ function Internet({
                         Tính năng
                     </span>
                 </span>
-                <div className="px-14 flex flex-col mt-4 text-base">
+                <div className="lg:px-14  flex flex-col mt-4 text-base">
                     <span>
                         Những ưu điểm của dịch vụ FTTH do FPT Telecom mang lại
                         bao gồm:
