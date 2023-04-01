@@ -20,9 +20,29 @@ function Tv() {
         slidesToScroll: 1,
         prevArrow: <PrevBanner />,
         nextArrow: <NextBanner />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+        ],
     };
     return (
-        <div className="relative  flex items-center justify-center flex-col pb-10 gap-y-8 bg-[#f3f3f3]">
+        <div className="relative  flex items-center justify-center flex-col pb-10 gap-y-8 bg-[#f3f3f3] ">
             <div className="absolute top-0 right-0 left-0 ">
                 <img
                     src={img.fptPlay}
@@ -37,14 +57,14 @@ function Tv() {
             <FptPlayPackage
                 data={packageFptPlayv1}
                 title="FPT Play - Gói thuê bao"
-                colorText="text-white"
+                colorText="text-primary"
             />
             <FptPlayPackage
                 data={packageFptPlayv2}
                 title="Góc giải trí"
                 colorText="text-black"
             />
-            <div className="w-[1120px]">
+            <div className=" w-[102%] lg:px-20 px-6 ">
                 <Slider {...settings}>
                     {cardPlayboxs.map((item, index) => (
                         <div className="px-2" key={index}>

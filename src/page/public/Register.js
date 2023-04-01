@@ -21,7 +21,7 @@ function Register() {
     };
 
     return (
-        <div className="bg-[#f3f3f3] flex">
+        <div className="bg-[#f3f3f3] flex px-4">
             <div className="w-[736px] mx-auto  bg-white my-6 rounded-xl px-4 py-6">
                 <div className="flex items-center font-bold gap-x-2">
                     <MdInfoOutline className="text-primary text-2xl" />

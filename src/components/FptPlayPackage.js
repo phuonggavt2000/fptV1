@@ -20,15 +20,15 @@ function FptPlayPackage({ data, title, colorText }) {
     }, [packageName, data]);
 
     return (
-        <div className="   relative z-[1] font-semibold mx-auto ">
-            <div className="flex items-center text-white gap-x-2 py-4">
+        <div className="   relative z-[1] font-semibold w-full flex flex-col justify-center items-center lg:px-20 px-6">
+            <div className="flex items-center text-white gap-x-2 py-4 w-full">
                 <div className="bg-[#f26a01] p-2 rounded-full">
                     <FaPlay />
                 </div>
 
                 <span className={`text-2xl ${colorText}`}>{title}</span>
             </div>
-            <div className="w-[1100px]  bg-transparent relative rounded-lg overflow-hidden ">
+            <div className=" w-[100%] bg-transparent relative rounded-lg overflow-hidden ">
                 <div className="bg-white px-8 pt-4">
                     <div className="flex gap-x-4 mb-4 border-b-2  text-secondary font-semibold text-lg">
                         {data.map((item, index) => (
@@ -48,7 +48,7 @@ function FptPlayPackage({ data, title, colorText }) {
                         ))}
                     </div>
 
-                    <div className="grid grid-cols-2 gap-x-8 ">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-2 gap-x-8 ">
                         <div className="flex items-start">
                             <img alt="fpt play" src={packageData.imgLeft} />
                         </div>

@@ -63,11 +63,17 @@ function Header({ onClick }) {
                             className="mr-auto cursor-pointer text-2xl"
                             onClick={() => setHiddenMenu(!hiddenMenu)}
                         />
-                        <img
-                            src={logo}
-                            alt="lap mang fpt "
-                            className="mr-auto"
-                        />
+                        <Link
+                            to="/"
+                            className="flex justify-start mr-auto"
+                            onClick={() => setHiddenMenu(!hiddenMenu)}
+                        >
+                            <img
+                                src={logo}
+                                alt="lap mang fpt "
+                                className="mr-auto"
+                            />
+                        </Link>
                     </div>
                     <div className="flex flex-col mt-4 px-2">
                         {headers.map((item, index) => (
@@ -79,6 +85,9 @@ function Header({ onClick }) {
                                         ? "active-nav-mobile"
                                         : "inactive-nav-mobile"
                                 }
+                                onClick={() => {
+                                    setHiddenMenu(!hiddenMenu);
+                                }}
                             >
                                 {item.icon}
 
