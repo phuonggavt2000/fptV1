@@ -46,7 +46,7 @@ function Home() {
                     <h1 className="text-4xl font-bold text-center mb-12">
                         Sản phẩm dịch vụ FPT
                     </h1>
-                    <Link className="relative" to={path.TV}>
+                    <Link className="relative hidden lg:block" to={path.TV}>
                         <img
                             src={imgTv}
                             alt="truyen-hinh-fpt"
@@ -68,7 +68,10 @@ function Home() {
                     </Link>
                 </div>
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-y-4 gap-x-4 mt-5">
-                    <Link className="relative" to={path.INTERNET}>
+                    <Link
+                        className="relative h-[70%] lg:h-full"
+                        to={path.INTERNET}
+                    >
                         <img
                             src={imgInternetP}
                             alt="internet-fpt"
@@ -89,7 +92,7 @@ function Home() {
                         </div>
                     </Link>
                     <Link
-                        className="relative h-[60%] lg:h-full"
+                        className="relative h-[70%] lg:h-full"
                         to={path.CAMERA}
                     >
                         <img
