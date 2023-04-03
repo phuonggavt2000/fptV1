@@ -20,6 +20,7 @@ import {
     BsPencil,
     BsInboxes,
     BsFillTelephoneFill,
+    BsFillCheckCircleFill,
 } from "react-icons/bs";
 import { BiHeadphone } from "react-icons/bi";
 import { FiClock } from "react-icons/fi";
@@ -41,6 +42,7 @@ import {
     AiOutlinePlaySquare,
 } from "react-icons/ai";
 const icons = {
+    BsFillCheckCircleFill,
     BsFillTelephoneFill,
     AiOutlinePlaySquare,
     BsPencil,

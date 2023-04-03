@@ -79,7 +79,7 @@ export const underBanners = [
         icon: <BsMessenger className="text-white" />,
         bg: "bg-[#00d574]",
         hover: "hover:text-[#00d574]",
-        to: "https://www.messenger.com/t/FptTelecom",
+        to: "https://www.messenger.com/t/108503272047244",
     },
 ];
 
@@ -175,7 +175,7 @@ export const internetProducts = [
     {
         type: "internet",
         title: "Giga",
-        price: "190k",
+        price: "190.000",
         img: imgProduct.giga,
         desc: "Tốc độ Download 150 Mbps",
         subDesc: "Tốc độ Upload 150 Mbps",
@@ -187,7 +187,7 @@ export const internetProducts = [
     {
         type: "internet",
         title: "Sky",
-        price: "250k",
+        price: "250.000",
         img: imgProduct.sky,
         desc: "Tốc độ download không giới hạn phụ thuộc vào thiết bị lên tới 1 Gbps",
         subDesc: "Tốc độ Upload 150 Mbps",
@@ -199,7 +199,7 @@ export const internetProducts = [
     {
         type: "internet",
         title: "Meta",
-        price: "350k",
+        price: "350.000",
         img: imgProduct.meta,
         desc: "Tốc độ download & upload không giới hạn phụ thuộc vào thiết bị lên tới 1 Gbps",
         subDesc: "",
@@ -210,7 +210,7 @@ export const internetProducts = [
     {
         type: "internet",
         title: "Lux500",
-        price: "800k",
+        price: "800.000",
         img: imgProduct.lux500,
         desc: "Tốc độ Download 500 Mbps",
         subDesc: "Tốc độ Upload 500 Mbps",
@@ -221,7 +221,7 @@ export const internetProducts = [
     {
         type: "internet",
         title: "Lux800",
-        price: "1000k",
+        price: "1.000.000",
         img: imgProduct.lux800,
         desc: "Tốc độ Download 800 Mbps",
         subDesc: "Tốc độ Upload 800 Mbps",
@@ -235,7 +235,7 @@ export const comboProducts = [
     {
         type: "combo",
         title: "Giga",
-        price: "230k",
+        price: "230.000",
         img: imgProduct.giga,
         desc: "Tốc độ Download 150 Mbps",
         subDesc: "Tốc độ Upload 150 Mbps",
@@ -247,7 +247,7 @@ export const comboProducts = [
     {
         type: "combo",
         title: "Sky",
-        price: "280k",
+        price: "280.000",
         img: imgProduct.sky,
         desc: "Tốc độ download không giới hạn phụ thuộc vào thiết bị lên tới 1 Gbps",
         subDesc: "Tốc độ Upload 150 Mbps",
@@ -259,7 +259,7 @@ export const comboProducts = [
     {
         type: "combo",
         title: "Meta",
-        price: "380k",
+        price: "380.000",
         img: imgProduct.meta,
         desc: "Tốc độ download & upload không giới hạn phụ thuộc vào thiết bị lên tới 1 Gbps",
         subDesc: "",
@@ -270,7 +270,7 @@ export const comboProducts = [
     {
         type: "combo",
         title: "Lux500",
-        price: "877k",
+        price: "877.000",
         img: imgProduct.lux500,
         desc: "Tốc độ Download 500 Mbps",
         subDesc: "Tốc độ Upload 500 Mbps",
@@ -281,7 +281,7 @@ export const comboProducts = [
     {
         type: "combo",
         title: "Lux800",
-        price: "1077k",
+        price: "1.077.000",
         img: imgProduct.lux800,
         desc: "Tốc độ Download 800 Mbps",
         subDesc: "Tốc độ Upload 800 Mbps",

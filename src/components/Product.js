@@ -65,7 +65,7 @@ function Product({ img, products, title = "cáp quang FPT" }) {
                                 ) : (
                                     <></>
                                 )}
-                                <span className="font-bold text-4xl text-[#4eb848] ">
+                                <span className="font-bold text-4xl text-[#4eb848] italic">
                                     {item.title}
                                 </span>
                                 <div className="w-[113px] mx-auto border-t">
@@ -75,9 +75,13 @@ function Product({ img, products, title = "cáp quang FPT" }) {
                                         className="mt-2"
                                     />
                                 </div>
-                                <button className="px-6 mt-4 py-2 bg-[#0017ea] text-white rounded-full">
-                                    Giá {item.price}
-                                </button>
+                                <div className="flex flex-col">
+                                    <span className="font-medium">Chỉ từ</span>
+                                    <span className="font-bold text-xl">
+                                        {item.price} đ/tháng
+                                    </span>
+                                </div>
+
                                 <div className="text-xs pb-4 px-16">
                                     <p>
                                         {item.desc} <br />

@@ -10,11 +10,47 @@ import Product from "../../components/Product";
 import { internetProducts, comboProducts } from "../../ultis/static";
 import img from "../../asset/imgs/img";
 import Register from "./Register";
+import { Helmet } from "react-helmet";
 
 function Home() {
     const { MdNavigateNext } = icons;
     return (
         <div className="relative  ">
+            <Helmet>
+                <meta
+                    http-equiv="Content-Type"
+                    content="text/html; charset=UTF-8"
+                />
+                <meta
+                    name="google-site-verification"
+                    content="t-dQdM5an25uJVAvZMfwyvBIl3yf_momnbRCUud_t7w"
+                />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1, user-scalable=yes"
+                />
+                <title>
+                    FPT Telecom HCM - Trung tâm kinh doanh FPT Telecom tại
+                    TP.HCM
+                </title>
+                <meta
+                    name="keywords"
+                    CONTENT="fpt telecom, fpt telecom hcm, internet fpt; mạng fpt; cáp quang fpt; truyền hình fpt; wifi fpt; fpt play box, camera fpt"
+                />
+                <meta
+                    name="description"
+                    CONTENT="FPT Telecom HCM là nhà cung cấp dịch vụ Internet hàng đầu khu vực, hàng triệu gia đình hài lòng với Cáp quang tốc độ cao - 📺 Truyền hình tương tác đầu tiên Việt Nam."
+                />
+                <meta name="robots" content="index, follow" />
+                <meta name="author" content="FPT Telecom HCM" />
+                <link rel="canonical" href="https://fptshoptq.com/" />
+                <link
+                    rel="alternate"
+                    media="handheld"
+                    href="https://fptshoptq.com/"
+                />
+            </Helmet>
+
             <Banner />
             <div className="lg:px-8 px-6 pb-10">
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 text-2xl font-semibold mt-4">
